@@ -27,15 +27,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(261, 40%, 48%);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(245, 30%, 85%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(236, 87%, 45%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
