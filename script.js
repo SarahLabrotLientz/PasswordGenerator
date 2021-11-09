@@ -16,7 +16,9 @@ var confirmSpecialCharacter, confirmNumericCharacter, confirmUpperCase, confirmL
 // Prompt to confirm how many characters the user would like in their password
 function generatePassword() {
   confirmLength = (prompt("How long of a password would you like (8-30)?"));
-
+if (confirmLength === null) {
+  return; //break out of the function early 
+}
   // Loop if answer is outside the parameters 
   while(confirmLength <= 7 || confirmLength >= 31) {
       alert("Your password must be between 8-30 characters. Please try again.");
@@ -88,3 +90,4 @@ document.getElementById("generate").addEventListener("mouseenter", function() {
 document.getElementById("generate").addEventListener("mouseleave", function() {
   document.getElementById("generate").style.backgroundColor = "hsl(360, 91%, 36%)";
 })
+
