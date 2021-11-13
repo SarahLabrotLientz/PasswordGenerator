@@ -11,7 +11,7 @@ If a user doesn't meet this range, then the prompt will loop until the user ente
 
 Screenshot: PasswordGenerator/assets/Screen Shot.png
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/ScreenShot.png)
+![The Password Generator application displays a red button to "Generate Password".](./assets/ScreenShot.png)
 
 GitHub repository for my Password Generator: https://github.com/SarahLabrotLientz/PasswordGenerator
 
