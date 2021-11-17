@@ -1,4 +1,4 @@
-// This script generates a unique password with 8-30 characters based on criteria the user specifies.
+// This script generates a unique password with 8-128 characters based on criteria the user specifies.
 
 //prompting questions when button pushed
 document.querySelector("#generate").addEventListener("click", writePassword);
@@ -15,13 +15,13 @@ var confirmSpecialCharacter, confirmNumericCharacter, confirmUpperCase, confirmL
 
 // Prompt to confirm how many characters the user would like in their password
 function generatePassword() {
-  confirmLength = (prompt("How long of a password would you like (8-30)?"));
+  confirmLength = (prompt("How long of a password would you like (8-128)?"));
 if (confirmLength === null) {
   return; //break out of the function early 
 }
   // Loop if answer is outside the parameters 
-  while(confirmLength <= 7 || confirmLength >= 31) {
-      alert("Your password must be between 8-30 characters. Please try again.");
+  while(confirmLength <= 7 || confirmLength >= 129) {
+      alert("Your password must be between 8-128 characters. Please try again.");
       confirmLength = (prompt("State how many characters you would like in your password: "));
       } 
 
